@@ -1,4 +1,4 @@
-# 02 Gmail Smart Compose
+# 02. Gmail Smart Compose
 ## Introduction
 # Gmail Smart Compose — ML System Design
 
