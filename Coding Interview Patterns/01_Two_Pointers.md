@@ -320,7 +320,7 @@ In addition to the examples already discussed, here are some other test cases yo
 When interviewers pose a problem, they sometimes provide only the minimum amount of information required for you to start solving it. Consequently, it’s crucial to thoroughly evaluate all that information to determine which details are essential for solving the problem efficiently. In this problem, the key to arriving at the optimal solution is recognizing that the input is sorted.
 
 
-# Triplet Sum
+# Triplet Sum {#triplet-sum}
  
 Given an array of integers, return all triplets `[a, b, c]` such that `a + b + c = 0`. The solution must not contain duplicate triplets (e.g., `[1, 2, 3]` and `[2, 3, 1]` are considered duplicates). If no such triplets are found, return an empty array.
  
@@ -683,7 +683,7 @@ In addition to the examples already covered in this explanation, below are some 
 | `nums = [0, 0, 1, -1, 1, -1]` | `[[-1, 0, 1]]` | Tests an array with duplicate triplets. |
 
 
-# Is Palindrome Valid
+# Is Palindrome Valid {#is-palindrome-valid}
 
 A palindrome is a sequence of characters that reads the same forward and backward.
 
@@ -1122,7 +1122,7 @@ In addition to the examples discussed throughout this explanation, below are som
 | `heights = [3, 2, 1]` | `2` | Tests an array with strictly decreasing heights. |
 
 
-# Shift Zeros to the End
+# Shift Zeros To The End {#shift-zeros-to-the-end}
 
 Given an array of integers, modify the array in place to move all zeros to the end while maintaining the relative order of non-zero elements.
 
@@ -1365,7 +1365,7 @@ In addition to the examples discussed, below are more examples to consider when 
 | `nums = [0, 0, 1, 1, 1]` | `[1, 1, 1, 0, 0]` | Tests an array with all zeros at the start. |
 
 
-# Next Lexicographical Sequence
+# Next Lexicographical Sequence {#next-lexicographical-sequence}
 
 Given a string of lowercase English letters, rearrange the characters to form a new string representing the next immediate sequence in lexicographical (alphabetical) order. If the given string is already last in lexicographical order among all possible arrangements, return the arrangement that's first in lexicographical order.
 
