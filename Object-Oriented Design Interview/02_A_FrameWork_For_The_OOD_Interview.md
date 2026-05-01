@@ -1,4 +1,4 @@
-# A Framework for the OOD Interview
+# 02. A Framework for the OOD Interview
 
 Having a clear framework for the OOD interview is more important than many realize. Without structure, the interview can feel disorganized and difficult for you and the interviewer to follow.
 
