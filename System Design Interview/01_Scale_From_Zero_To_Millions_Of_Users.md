@@ -166,7 +166,7 @@ Here are a few considerations for using a cache system:
 - **Consistency:** This involves keeping the data store and the cache in sync. Inconsistency can happen because data-modifying operations on the data store and cache are not in a single transaction. When scaling across multiple regions, maintaining consistency between the data store and cache is challenging. For further details, refer to the paper titled "Scaling Memcache at Facebook" published by Facebook [7].
 - **Mitigating failures:** A single cache server represents a potential single point of failure (SPOF), defined in Wikipedia as follows: "A single point of failure (SPOF) is a part of a system that, if it fails, will stop the entire system from working" [8]. As a result, multiple cache servers across different data centers are recommended to avoid SPOF. Another recommended approach is to overprovision the required memory by certain percentages. This provides a buffer as the memory usage increases.
 ![alt text](image-7.png)
-<p align="center">*Figure 8*</p>
+<p align="center">Figure 8</p>
 
 - **Eviction Policy:** Once the cache is full, any requests to add items to the cache might cause existing items to be removed. This is called cache eviction. Least-recently-used (LRU) is the most popular cache eviction policy. Other eviction policies, such as the Least Frequently Used (LFU) or First in First Out (FIFO), can be adopted to satisfy different use cases.
 
@@ -180,11 +180,11 @@ Dynamic content caching is a relatively new concept and beyond the scope of this
 
 Here is how CDN works at the high-level: when a user visits a website, a CDN server closest to the user will deliver static content. Intuitively, the further users are from CDN servers, the slower the website loads. For example, if CDN servers are in San Francisco, users in Los Angeles will get content faster than users in Europe. Figure 9 is a great example that shows how CDN improves load time.
 ![alt text](image-8.png)
-<p align="center">*Figure 9*</p>
+<p align="center">Figure 9</p>
 
 Figure 10 demonstrates the CDN workflow.
 ![alt text](image-9.png)
-<p align="center">*Figure 10*</p>
+<p align="center">Figure 10</p>
 
 1. User A tries to get `image.png` by using an image URL. The URL's domain is provided by the CDN provider. The following two image URLs are samples used to demonstrate what image URLs look like on Amazon and Akamai CDNs:
    - `https://mysite.cloudfront.net/logo.jpg`
@@ -223,7 +223,7 @@ A stateful server and stateless server has some key differences. A stateful serv
 
 Figure 12 shows an example of a stateful architecture.
 ![alt text](image-11.png)
-<p align="center">*Figure 12*</p>
+<p align="center">Figure 12</p>
 
 In Figure 12, user A's session data and profile image are stored in Server 1. To authenticate User A, HTTP requests must be routed to Server 1. If a request is sent to other servers like Server 2, authentication would fail because Server 2 does not contain User A's session data. Similarly, all HTTP requests from User B must be routed to Server 2; all requests from User C must be sent to Server 3.
 
