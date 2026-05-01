@@ -1,4 +1,4 @@
-# Design A Notification System
+# 10. Design A Notification System
 
 A notification system has already become a very popular feature for many applications in recent years. A notification alerts a user with important information like breaking news, product updates, events, offerings, etc. It has become an indispensable part of our daily life. In this chapter, you are asked to design a notification system.
 
