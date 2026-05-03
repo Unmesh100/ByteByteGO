@@ -1,4 +1,4 @@
-# Design a Tic Tac Toe Game
+# 10. Design a Tic Tac Toe Game
 
 In this chapter, we will explore the object-oriented design of a Tic-Tac-Toe game. We aim to create an interactive platform where two players alternate turns, placing their symbols on a virtual board. We'll design key components such as the game board, player move tracking, outcome determination, and a score tracker for managing player ratings.
 
