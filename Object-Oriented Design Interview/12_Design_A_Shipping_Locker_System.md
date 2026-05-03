@@ -4,7 +4,7 @@ In this chapter, we will design a Shipping Locker system similar to UPS, FedEx, 
 
 To realize this vision of a convenient and secure locker system, let's explore what it needs to do.
 ![alt text](image-101.png)
-<p align="center">Shipping Locker System</p>
+<p align="center">Shipping Locker System</p> 
 
 ---
 
