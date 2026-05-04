@@ -409,7 +409,7 @@ Tree-based algorithms form a tree by splitting the space into multiple partition
 
 We form the tree by iteratively adding new criteria to each node. In the tree, non-leaf nodes split the space into two partitions given the criterion. Leaf nodes indicate a particular region in space. Figure 2.22 shows a formed tree from the points.
 ![alt text](image-45.png)
-<p align="center">*Figure 2.22: A formed tree from the points*</p>
+<p align="center">Figure 2.22: A formed tree from the points</p>
 
 The algorithm only searches the partition that the query point belongs to. Figure 2.23 shows an example of the space divided into 7 regions.
 ![alt text](image-46.png)
