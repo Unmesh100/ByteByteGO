@@ -413,7 +413,7 @@ We form the tree by iteratively adding new criteria to each node. In the tree, n
 
 The algorithm only searches the partition that the query point belongs to. Figure 2.23 shows an example of the space divided into 7 regions.
 ![alt text](image-46.png)
-<p align="center">*Figure 2.23: Partitioned space by the tree*</p>
+<p align="center">Figure 2.23: Partitioned space by the tree</p>
 
 Typical tree-based methods are R-trees [18], Kd-trees [19], and Annoy (Approximate Nearest Neighbor Oh Yeah) [20].
 
