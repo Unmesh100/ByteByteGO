@@ -681,7 +681,7 @@ If there's extra time at the end of the interview, you may face follow-up questi
 ## Summary
 ![alt text](image-68.png)
 
-*Figure: Mind map summarizing the key aspects of generative AI system design*
+<p align="center">Figure: Mind map summarizing the key aspects of generative AI system design</p>
 
 ---
 
@@ -721,4 +721,4 @@ If there's extra time at the end of the interview, you may face follow-up questi
 ---
 ### Footnotes
 
-[^1]: Visit https://platform.openai.com/tokenizer to see examples of different tokenizers.
+[1]: Visit https://platform.openai.com/tokenizer to see examples of different tokenizers.

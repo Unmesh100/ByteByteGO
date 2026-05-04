@@ -794,7 +794,7 @@ If there is extra time at the end of the interview, here are some additional tal
 
 ## Summary
 ![alt text](image-139.png)
-*Figure: Mind map summarizing the design of a generative AI chatbot system*
+<p align="center">Figure: Mind map summarizing the design of a generative AI chatbot system</p>
 
 ---
 
