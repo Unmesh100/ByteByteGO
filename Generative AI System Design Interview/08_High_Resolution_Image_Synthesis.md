@@ -428,4 +428,4 @@ If there's time remaining at the end of the interview, you could explore these a
 
 ## Footnotes
 
-[^1]: Certain optimizations and techniques (e.g., latent diffusion model) can significantly speed up the generation process in diffusion models. These methods are discussed in detail in Chapter 10 and Chapter 11.
+[1]: Certain optimizations and techniques (e.g., latent diffusion model) can significantly speed up the generation process in diffusion models. These methods are discussed in detail in Chapter 10 and Chapter 11.
