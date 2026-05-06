@@ -1,4 +1,4 @@
-# Nearby Friends
+# 17. Nearby Friends
 
 In this chapter, we design a scalable backend system for a new mobile app feature called "Nearby Friends". For an opt-in user who grants permission to access their location, the mobile client presents a list of friends who are geographically nearby. If you are looking for a real-world example, please refer to this article [1] about a similar feature in the Facebook app.
 ![alt text](image-229.png)
