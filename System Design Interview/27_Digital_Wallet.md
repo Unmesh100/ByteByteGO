@@ -1,4 +1,4 @@
-# Digital Wallet
+# 27. Digital Wallet
 
 Payment platforms usually provide a digital wallet service to clients, so they can store money in the wallet and spend it later. For example, you can add money to your digital wallet from your bank card and when you buy products online, you are given the option to pay using the money in your wallet. Figure 1 shows this process.
 ![alt text](image-460.png)
