@@ -214,7 +214,7 @@ Above, we’ve demonstrated a two-pointer algorithm using inward traversal. Let�
 
 We can stop moving the left and right pointers when they meet, as this indicates no pair summing to the target was found.
 
-# Implementation
+## Implementation
 
 ### Python
 ```python
@@ -294,13 +294,13 @@ public class Main {
 }
 ```
 
-# Complexity Analysis
+## Complexity Analysis
 
 **Time complexity:** The time complexity of pair_sum_sorted is O(n) because we perform approximately n iterations using the two-pointer technique in the worst case.
 
 **Space complexity:** We only allocated a constant number of variables, so the space complexity is O(1).
 
-# Test Cases
+## Test Cases
 
 In addition to the examples already discussed, here are some other test cases you can use. These extra test cases cover different contexts to ensure the code works well across a range of inputs. Testing is important because it helps identify mistakes in your code, ensures the solution works for uncommon inputs, and brings attention to cases you might have overlooked.
 
@@ -315,12 +315,12 @@ In addition to the examples already discussed, here are some other test cases yo
 | nums = [-3, -2, -1] target = -5   | [0, 1]              | Tests when both numbers in the pair are negative.                           |
 
 
-# Interview Tip
+## Interview Tip
 **Tip:** Consider all information provided.
 When interviewers pose a problem, they sometimes provide only the minimum amount of information required for you to start solving it. Consequently, it’s crucial to thoroughly evaluate all that information to determine which details are essential for solving the problem efficiently. In this problem, the key to arriving at the optimal solution is recognizing that the input is sorted.
 
 
-# Triplet Sum {#triplet-sum}
+# Triplet Sum
  
 Given an array of integers, return all triplets `[a, b, c]` such that `a + b + c = 0`. The solution must not contain duplicate triplets (e.g., `[1, 2, 3]` and `[2, 3, 1]` are considered duplicates). If no such triplets are found, return an empty array.
  
@@ -339,7 +339,7 @@ A brute force solution involves checking every possible triplet in the array to 
  
 Duplicate triplets can be avoided by sorting each triplet, which ensures that identical triplets with different representations (e.g., `[1, 3, 2]` and `[3, 2, 1]`) are ordered consistently (e.g., `[1, 2, 3]`). Once sorted, we can add these triplets to a hash set. This way, if the same triplet is encountered again, the hash set will only keep one instance. Below is the code snippet for this approach:
 
-# Implementation
+## Implementation
 
 ### Python
 ```python
@@ -683,7 +683,7 @@ In addition to the examples already covered in this explanation, below are some 
 | `nums = [0, 0, 1, -1, 1, -1]` | `[[-1, 0, 1]]` | Tests an array with duplicate triplets. |
 
 
-# Is Palindrome Valid {#is-palindrome-valid}
+# Is Palindrome Valid 
 
 A palindrome is a sequence of characters that reads the same forward and backward.
 
@@ -1122,7 +1122,7 @@ In addition to the examples discussed throughout this explanation, below are som
 | `heights = [3, 2, 1]` | `2` | Tests an array with strictly decreasing heights. |
 
 
-# Shift Zeros To The End {#shift-zeros-to-the-end}
+# Shift Zeros To The End 
 
 Given an array of integers, modify the array in place to move all zeros to the end while maintaining the relative order of non-zero elements.
 
@@ -1365,7 +1365,7 @@ In addition to the examples discussed, below are more examples to consider when 
 | `nums = [0, 0, 1, 1, 1]` | `[1, 1, 1, 0, 0]` | Tests an array with all zeros at the start. |
 
 
-# Next Lexicographical Sequence {#next-lexicographical-sequence}
+# Next Lexicographical Sequence 
 
 Given a string of lowercase English letters, rearrange the characters to form a new string representing the next immediate sequence in lexicographical (alphabetical) order. If the given string is already last in lexicographical order among all possible arrangements, return the arrangement that's first in lexicographical order.
 
