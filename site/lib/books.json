@@ -1,0 +1,50 @@
+[
+  {
+    "slug": "system-design",
+    "folder": "System Design Interview",
+    "title": "System Design Interview",
+    "short": "System Design",
+    "description": "Scale from zero to millions of users, then design rate limiters, chat systems, YouTube, payment systems, stock exchanges and more.",
+    "accent": "#2a43c4"
+  },
+  {
+    "slug": "coding-patterns",
+    "folder": "Coding Interview Patterns",
+    "title": "Coding Interview Patterns",
+    "short": "Coding Patterns",
+    "description": "Nineteen problem-solving patterns, from two pointers to dynamic programming, with solutions in multiple languages.",
+    "accent": "#1d5a46"
+  },
+  {
+    "slug": "object-oriented-design",
+    "folder": "Object-Oriented Design Interview",
+    "title": "Object-Oriented Design Interview",
+    "short": "OO Design",
+    "description": "A framework for OOD interviews plus parking lots, elevators, vending machines, ATMs and other classic class-design problems.",
+    "accent": "#bf4f1f"
+  },
+  {
+    "slug": "ml-system-design",
+    "folder": "Machine Learning System Design Interview",
+    "title": "Machine Learning System Design Interview",
+    "short": "ML System Design",
+    "description": "End-to-end ML systems: visual search, recommendations, harmful content detection, ad click prediction and news feeds.",
+    "accent": "#7a2340"
+  },
+  {
+    "slug": "genai-system-design",
+    "folder": "Generative AI System Design Interview",
+    "title": "Generative AI System Design Interview",
+    "short": "GenAI System Design",
+    "description": "Smart compose, translation, chatbots, RAG, image synthesis and text-to-video generation, designed from first principles.",
+    "accent": "#46337f"
+  },
+  {
+    "slug": "mobile-system-design",
+    "folder": "Mobile System Design Interview",
+    "title": "Mobile System Design Interview",
+    "short": "Mobile System Design",
+    "description": "A framework for mobile interviews plus news feed, chat, stock trading, Google Drive and YouTube apps.",
+    "accent": "#9c7420"
+  }
+]
