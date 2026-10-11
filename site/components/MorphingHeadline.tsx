@@ -37,11 +37,11 @@ export function MorphingHeadline({ texts, className = "" }: { texts: string[]; c
 
   return (
     <div ref={wrap} className={`relative ${className}`} aria-hidden>
-      {/* Invisible probe with identical type settings, used only for measuring. */}
-      <span
-        ref={probe}
-        className="display pointer-events-none invisible absolute left-0 top-0 whitespace-nowrap text-[100px] tracking-[-0.035em]"
-      />
+      {/* Invisible probe with identical type settings, used only for measuring.
+          Clipped so its 100px text never widens the page on narrow screens. */}
+      <span className="pointer-events-none invisible absolute inset-0 overflow-hidden">
+        <span ref={probe} className="display absolute left-0 top-0 whitespace-nowrap text-[100px] tracking-[-0.035em]" />
+      </span>
       <MorphingText
         texts={texts}
         morphTime={1.4}

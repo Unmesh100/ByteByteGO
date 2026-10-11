@@ -64,6 +64,9 @@
     --anchor-offset: calc(var(--header-h) + 1.75rem);
     scroll-padding-top: var(--anchor-offset);
     -webkit-text-size-adjust: 100%;
+    /* Guard against any stray element widening the page; `clip` (unlike `hidden`)
+       keeps the sticky header and chapter bar working. */
+    overflow-x: clip;
   }
   /* Below lg, pages with the sticky chapter bar (3rem) need extra room under the header. */
   @media (max-width: 1023.98px) {
@@ -466,7 +469,7 @@
   [data-theme="dark"] .prose .dialogue-b .dialogue-speaker { color: color-mix(in oklab, var(--book) 55%, white); }
   .prose .dialogue-a .dialogue-line { color: var(--fg); }
   @media (max-width: 639px) {
-    .prose p.dialogue { grid-template-columns: 1fr; gap: 0.1em; }
+    .prose p.dialogue { grid-template-columns: minmax(0, 1fr); gap: 0.1em; }
     .prose .dialogue-speaker { padding-top: 0; }
   }
 

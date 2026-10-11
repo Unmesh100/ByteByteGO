@@ -20,7 +20,7 @@ export function GitHubStar() {
       target="_blank"
       rel="noopener noreferrer"
       aria-label={`Star ${REPO.owner}/${REPO.name} on GitHub`}
-      className="group flex size-10 items-center justify-center gap-2.5 rounded-full border border-line-strong text-fg-muted transition-colors duration-300 hover:bg-sunken hover:text-fg md:w-auto md:justify-start md:pl-3.5 md:pr-4"
+      className="group flex size-10 items-center max-[360px]:hidden justify-center gap-2.5 rounded-full border border-line-strong text-fg-muted transition-colors duration-300 hover:bg-sunken hover:text-fg md:w-auto md:justify-start md:pl-3.5 md:pr-4"
     >
       <GitHubMark width={16} height={16} className="shrink-0" />
       <span className="label hidden md:inline">Star</span>
